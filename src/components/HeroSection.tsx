@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-// 1. Import motion dari framer-motion
 import { motion, type Variants } from "framer-motion";
 import profileData from "../data/profile.json";
 import Contact from "./Contact";
@@ -21,7 +20,6 @@ export default function HeroSection() {
     return () => clearInterval(interval);
   }, [roles.length]);
 
-  // 2. Definisi varian untuk staggered animation agar lebih rapi
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
@@ -40,7 +38,7 @@ export default function HeroSection() {
       y: 0,
       transition: {
         duration: 1,
-        ease: "easeOut", // TypeScript bakal paham karena udah dikasih tipe : Variants
+        ease: "easeOut",
       },
     },
   };
@@ -50,7 +48,6 @@ export default function HeroSection() {
       className="min-h-screen w-full flex items-center justify-center -mt-16 sm:-mt-20 scroll-mt-28"
       id="home"
     >
-      {/* 3. Ubah Container menjadi motion.div dengan varian staggered */}
       <motion.div
         className="max-w-2xl md:max-w-4xl lg:max-w-5xl mx-auto px-10 md:px-15"
         initial="hidden"
@@ -58,10 +55,8 @@ export default function HeroSection() {
         variants={containerVariants}
       >
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
-          {/* Kolon Kiri: Teks */}
           <div className="text flex-1">
             <div className="tagline flex flex-col gap-4">
-              {/* 4. Bungkus setiap baris teks dengan motion.div itemVariants */}
               <motion.p
                 variants={itemVariants}
                 className="text-xl font-bold text-left"
@@ -101,8 +96,7 @@ export default function HeroSection() {
             </motion.p>
           </div>
 
-          {/* Kolom Kanan: Avatar & Contact */}
-          {/* 5. Bungkus Avatar & Contact sebagai satu kesatuan item muncul terakhir */}
+          {/* Avatar & Contact */}
           <motion.div
             variants={itemVariants}
             className="avatar shrink-0 flex flex-col gap-5 mt-10 md:mt-20 lg:mt-0"
