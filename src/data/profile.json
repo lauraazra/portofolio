@@ -1,0 +1,42 @@
+{
+  "name": "Laura Azra Aprilyanti",
+  "roles": [
+    "Frontend Developer",
+    "Web Developer",
+    "UI/UX Designer",
+    "Project Manager"
+  ],
+  "tagline": "From Managing Products to Building Them: A Reimagined Web Developer.",
+  "aboutParagraphs": [
+    "Building on my background in Computer Science, I initially leaned into product strategy and project management—aligning user needs with business goals. That hands-on PM experience deepened my understanding of how successful software is planned, structured, and delivered.",
+    "To complete the picture, I expanded back into technical execution to directly build what I once managed. Mastering modern tools like React, TypeScript, and Tailwind CSS allows me to combine a Project Manager's strategic vision with strong front-end craftsmanship to create clean, responsive digital products."
+  ],
+  "education": [
+    {
+      "institution": "Padjadjaran University",
+      "degree": "B.S. in Computer Science (GPA: 3.75/4.00)",
+      "supervisor": "Supervised by Dr. Juli Rejito, M.Kom"
+    },
+    {
+      "institution": "Dibimbing.id Bootcamp",
+      "degree": "Product & Project Management (Batch 9)"
+    }
+  ],
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "React.js",
+    "Node.js",
+    "Figma",
+    "Tailwind CSS",
+    "MongoDB",
+    "Github",
+    "Notion"
+  ],
+  "socials": {
+    "whatsapp": "https://wa.me/6282121555554",
+    "linkedin": "https://www.linkedin.com/in/laura-azra-aprilyanti",
+    "github": "https://github.com/lauraazra",
+    "email": "https://mail.google.com/mail/?view=cm&fs=1&to=lazraaprilyanti@gmail.com"
+  }
+}

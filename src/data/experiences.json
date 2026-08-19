@@ -1,0 +1,79 @@
+[
+  {
+    "company": "Toko Grosir Samudra Kue",
+    "role": "Cashier & Content Creator",
+    "period": "August 2025 – Present",
+    "tasks": [
+      "Managed manual cash transactions, payment processing, and daily store operations to ensure smooth wholesale customer service.",
+      "Created engaging social media content and product showcases to drive digital engagement and boost local store visibility.",
+      "Handled manual inventory tracking and resolved customer inquiries efficiently in a fast-paced retail environment."
+    ],
+    "links": {
+      "tiktok": "https://www.tiktok.com/@samudrakue"
+    }
+  },
+  {
+    "company": "Skull Cap (Online Thrift & Retail)",
+    "role": "E-Commerce & Live Stream Seller",
+    "period": "August 2025 – Present",
+    "tasks": [
+      "Hosted interactive TikTok live streaming sessions to showcase products, engage with buyers, and drive direct online sales.",
+      "Produced creative short-form video content for marketing campaigns and brand awareness.",
+      "Managed WhatsApp business operations, customer orders, communications, and end-to-end transaction coordination."
+    ],
+    "links": {
+      "tiktok": "https://www.tiktok.com/@skullthcap",
+      "instagram": "https://www.instagram.com/skullthcap/"
+    }
+  },
+  {
+    "company": "Katekima",
+    "role": "Project Manager",
+    "period": "Jan 2025 – July 2025",
+    "tasks": [
+      "Led end-to-end software development lifecycles, collaborating across cross-functional teams to ensure on-time feature delivery.",
+      "Defined product scope, roadmaps, and technical requirements, bridging business objectives with engineering execution.",
+      "Streamlined project workflows using Agile/Scrum practices, facilitating sprint planning, daily standups, and progress tracking.",
+      "Monitored project risks, managed stakeholder expectations, and maintained high quality standards throughout product releases."
+    ]
+  },
+  {
+    "company": "Kapanlagi Youniverse",
+    "role": "Product Management Intern",
+    "period": "Feb 2023 – Jul 2023",
+    "tasks": [
+      "Created product development designs and feature specifications based on user needs analysis and operational reports.",
+      "Implemented Agile/Scrum methodologies, facilitating sprint routines and managing backlog tasks via Kanban Pivotal Tracker.",
+      "Analyzed behavioral and business metrics, designing intuitive dashboards for non-technical stakeholders to present actionable insights.",
+      "Designed UI prototypes and wireframes aligned with user needs while enhancing the overall UX flow for existing digital products."
+    ]
+  },
+  {
+    "company": "Himatif FMIPA Unpad",
+    "role": "Secretary I & Staff of Commission III",
+    "period": "Dec 2021 – Dec 2022",
+    "tasks": [
+      "Reviewed and approved the Draft Budget Fund for the executive board's (BE) work programs.",
+      "Conducted financial audits and cross-checked financial statements across department initiatives.",
+      "Supervised and evaluated the overall financial realization and budget efficiency of BE Himatif FMIPA Unpad."
+    ]
+  },
+  {
+    "company": "Himatif FMIPA Unpad",
+    "role": "Staff of Entrepreneurship Department",
+    "period": "Dec 2020 – Dec 2021",
+    "tasks": [
+      "Drove organization revenue by managing and developing independent business units (Fix and Create / FnC).",
+      "Created visual marketing assets and engaging content for Instagram to boost brand visibility and product sales."
+    ]
+  },
+  {
+    "company": "OSIS SMAIT Insantama",
+    "role": "Staff of Wasabi (Wahana Siswa Berprestasi)",
+    "period": "2018 – 2019",
+    "tasks": [
+      "Spearheaded student competency development initiatives centered around academic and non-academic competitions.",
+      "Coordinated technical selection processes and talent assessment workflows to identify high-achieving students for school and boarding programs."
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-porto-black: #1a312c;
+  --color-porto-teal: #17dbae;
+  --color-porto-mint: #34d399;
+  --color-porto-beige: #fff4e1;
+  --color-porto-neutral: #2d2d2d;
+  --color-porto-white: #fffff5;
+  --color-porto-darkblue: #112240;
+  --color-porto-borderslate: #314158;
+
+  --color-text-site: var(--text-site);
+  --color-text-second: var(--text-second);
+  --color-bg-site: var(--bg-site);
+  --color-card-site: var(--card-site);
+  --color-border-site: var(--border-site);
+}
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --text-site: var(--color-porto-neutral);
+  --text-second: var(--color-porto-teal);
+  --bg-site: var(--color-porto-beige);
+  --card-site: var(--color-porto-white);
+  --border-site: var(--color-porto-teal);
+  --shadow-card-val:
+    0 2px 5px 0 rgba(26, 49, 44, 0.12), 0 14px 28px -4px rgba(26, 49, 44, 0.32);
+
+  --shadow-glow-val: 0 0 25px -2px rgba(66, 132, 117, 0.55);
+}
+
+.dark {
+  --text-site: var(--color-porto-white);
+  --text-second: var(--color-porto-mint);
+  --bg-site: var(--color-porto-black);
+  --card-site: var(--color-porto-darkblue);
+  --border-site: var(--color-porto-mint);
+  --shadow-card-val: 0 12px 32px -5px rgba(2, 12, 27, 0.6);
+  --shadow-glow-val: 0 0 25px -5px rgba(52, 211, 153, 0.3);
+}
+
+@utility shadow-card {
+  box-shadow: var(--shadow-card-val);
+}
+
+@utility shadow-glow {
+  box-shadow: var(--shadow-glow-val);
+}
+
+html {
+  scroll-behavior: smooth;
+}

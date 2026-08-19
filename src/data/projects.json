@@ -1,0 +1,95 @@
+{
+  "coreProjects": [
+    {
+      "Category": "Web App Project",
+      "Name": "Marmara Landing Page",
+      "Description": "Modern landing page for an artisan cake shop featuring automated WhatsApp checkout, an integrated Gemini AI chatbot for customer inquiries, and dynamic content sections for articles and business collaboration.",
+      "tool": ["ReactJS", "NodeJS", "API Gemini", "Tailwind CSS", "MongoDB"],
+      "link": {
+        "Repository": "https://github.com/lauraazra/marmara-cakes",
+        "Website": "https://marmara-cakes.vercel.app/"
+      },
+      "img": "marmara.png"
+    },
+    {
+      "Category": "Web App Project",
+      "Name": "Wholesale Point of Sale",
+      "Description": "A tailored web-based POS application designed to streamline wholesale transactions, featuring dynamic tiered pricing logic based on minimum order quantities and efficient stock tracking.",
+      "tool": ["Laravel", "MySQL", "Bootstrap", "Figma"],
+      "link": {
+        "Repository": "https://github.com/lauraazra/TALaura",
+        "Documentation": "https://drive.google.com/file/d/1zLdQQJr9Efe-VWLajjy_pwkVpHpr-nE7/view?usp=drive_link",
+        "Design": "https://www.figma.com/design/3asbIWbQQktejiBMofScua/Skripsi-Desain?node-id=128-2&p=f&t=eD5QBAG9djC2tLUM-0"
+      },
+      "img": "wholesale.png"
+    },
+    {
+      "Category": "Web App Project",
+      "Name": "Weeboo",
+      "Description": "A clean, responsive web interface integrated with the Jikan REST API, allowing users to seamlessly search, filter, and discover comprehensive anime titles and character profiles.",
+      "tool": ["ReactJS", "REST API", "Bootstrap"],
+      "link": {
+        "Repository": "https://github.com/lauraazra/belajarFrontEnd/tree/main/reactJS/5AnimeApp"
+      },
+      "img": "weeboo.png"
+    }
+  ],
+  "moreProjects": [
+    {
+      "Category": "Web App Project",
+      "Name": "MovieNerds",
+      "Description": "A film community platform built with Laravel featuring movie articles, rating rankings, and interactive public discussions for movie enthusiasts.",
+      "tool": ["Laravel", "PHP", "MySQL", "JavaScript", "Bootstrap", "Figma"],
+      "link": {
+        "Repository": "https://github.com/safiraanna/PPL_MovieNerds",
+        "Design": "https://www.figma.com/design/a0GjIqF6lYLFhP3PoefLDd/PPL?node-id=121-404&p=f&t=0TNoXwqPsRCoCYgz-0"
+      }
+    },
+    {
+      "Category": "Web App Project",
+      "Name": "TemanMarvel",
+      "Description": "An interactive web catalog dedicated to Marvel Cinematic Universe fans, enabling users to explore detailed cast/character profiles and participate in community discussions.",
+      "tool": ["CodeIgniter", "PHP", "MySQL", "HTML/CSS", "Figma"],
+      "link": {
+        "Repository": "https://github.com/praktikum-tiunpad-2021/proyek-web-triomaung",
+        "Design": "https://www.figma.com/design/GtgiBZNnKN21x9xxQVK0zQ/Projek-WebDev?node-id=0-1&p=f&t=rGiWiso4hincziOq-0"
+      }
+    },
+    {
+      "Category": "Web App Project",
+      "Name": "Cryptography Cipher Calculator",
+      "Description": "A lightweight web utility designed to process and visualize text encryption/decryption using ROT13 and Rail Fence (Zig-Zag) algorithms.",
+      "tool": ["JavaScript", "HTML", "CSS"],
+      "link": {
+        "Repository": "https://github.com/lauraazra/Kriptografi_zigzag-rot"
+      }
+    },
+    {
+      "Category": "Web App Project",
+      "Name": "Gopher Task Manager",
+      "Description": "A CRUD-based task tracking application tailored for university students to efficiently manage course deadlines, class codes, and assignment status.",
+      "tool": ["PHP", "MySQL", "HTML", "CSS"],
+      "link": {
+        "Repository": "https://github.com/lauraazra/Project-Sisdat"
+      }
+    },
+    {
+      "Category": "Game Development",
+      "Name": "Twing Twing Game",
+      "Description": "An endless runner 3D mobile game built for Android devices where players navigate through city obstacles to achieve high scores.",
+      "tool": ["Unity", "C#", "Blender", "Canva"],
+      "link": {
+        "Download": "https://drive.google.com/file/d/1OSnbge8jChXYHpJ67yKc-4SqnyBy3VoK/view?usp=sharing"
+      }
+    },
+    {
+      "Category": "Game Development",
+      "Name": "TicTacToe GUI Game",
+      "Description": "A classic Java desktop GUI application demonstrating Object-Oriented Programming (OOP) concepts with custom win-detection logic.",
+      "tool": ["Java", "OOP", "Java Swing", "AWT"],
+      "link": {
+        "Repository": "https://github.com/lauraaara/TictacToe-OOP"
+      }
+    }
+  ]
+}
