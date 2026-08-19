@@ -17,7 +17,6 @@ const containerVariants: Variants = {
   },
 };
 
-// Varian dinamis berdasarkan isRight
 const getChildVariants = (isRight: boolean): Variants => ({
   hidden: {
     opacity: 0,
