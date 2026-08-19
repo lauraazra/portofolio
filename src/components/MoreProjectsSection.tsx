@@ -12,7 +12,7 @@ export default function MoreProjectsSection() {
   };
 
   return (
-    <section className="py-12 md:py-20 w-full">
+    <section className="py-15 w-full">
       <div className="max-w-2xl md:max-w-4xl lg:max-w-5xl mx-auto px-10 md:px-15">
         <div className="text-center mb-12">
           <h2 className="text-2xl sm:text-3xl font-bold text-text-site">
@@ -94,7 +94,7 @@ export default function MoreProjectsSection() {
           <div className="mt-12 text-center">
             <button
               onClick={handleShowMore}
-              className="px-7 py-3.5 text-xs font-mono font-medium text-porto-mint border border-porto-minttext-porto-mint/40 rounded hover:bg-porto-minttext-porto-mint/10 transition-all duration-200"
+              className="px-7 py-3.5 text-xs font-mono font-medium text-porto-mint border border-porto-mint/40 rounded hover:bg-porto-minttext-porto-mint/10 transition-all duration-200"
             >
               Show More
             </button>

@@ -10,7 +10,7 @@ export default function ExperienceSection() {
   const currentExp = experiences[activeTab];
 
   return (
-    <section className="py-12 md:py-20 w-full">
+    <section className="py-20 w-full scroll-mt-10" id="experience">
       <div className="max-w-2xl md:max-w-4xl lg:max-w-5xl mx-auto px-10 md:px-15">
         <TextSection
           title="Where I’ve Worked"

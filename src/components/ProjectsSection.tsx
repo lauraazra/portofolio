@@ -7,7 +7,7 @@ export default function ProjectsSection() {
   const coreProjects: Project[] = projectsData.coreProjects;
 
   return (
-    <section className="py-12 md:py-20 w-full" id="projects">
+    <section className="py-20 w-full scroll-mt-10" id="projects">
       <div className="max-w-2xl md:max-w-4xl lg:max-w-5xl mx-auto px-10 md:px-15">
         <TextSection
           title="Some Things I’ve Built"

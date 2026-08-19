@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Sun, Moon } from "lucide-react";
 
@@ -44,7 +43,7 @@ export default function Navbar() {
     <nav className="bg-bg-site sticky top-0 z-50 transition-colors duration-300 border-b border-border-site/50 shadow-[0_4px_20px_rgba(26,49,44,0.18)] dark:shadow-[0_4px_25px_rgba(52,211,153,0.15)]">
       <div className="flex items-center justify-between px-5 md:px-10 lg:px-20 py-4 mx-auto w-full">
         <div className="flex-1 flex justify-start">
-          <NavLink className="logo" to="/">
+          <a href="#home" onClick={() => setMenuOpen(false)}>
             <img
               src="/logo.png"
               alt="Logo"
@@ -55,7 +54,7 @@ export default function Navbar() {
               alt="Logo Dark"
               className="object-contain w-12 md:w-16 lg:w-20 hidden dark:block"
             />
-          </NavLink>
+          </a>
         </div>
 
         {menuOpen && (
@@ -94,22 +93,38 @@ export default function Navbar() {
 
           <ul className="flex flex-col items-end gap-8 font-medium whitespace-nowrap mt-15 md:gap-12 lg:flex-row lg:mt-0">
             <li>
-              <a href="#about" className="hover:text-emerald-400">
+              <a
+                href="#about"
+                onClick={() => setMenuOpen(false)}
+                className="hover:text-emerald-400"
+              >
                 About
               </a>
             </li>
             <li>
-              <a href="#project" className="hover:text-emerald-400">
+              <a
+                href="#projects"
+                onClick={() => setMenuOpen(false)}
+                className="hover:text-emerald-400"
+              >
                 Project
               </a>
             </li>
             <li>
-              <a href="#experience" className="hover:text-emerald-400">
+              <a
+                href="#experience"
+                onClick={() => setMenuOpen(false)}
+                className="hover:text-emerald-400"
+              >
                 Experience
               </a>
             </li>
             <li>
-              <a href="#contact" className="hover:text-emerald-400">
+              <a
+                href="#contact"
+                onClick={() => setMenuOpen(false)}
+                className="hover:text-emerald-400"
+              >
                 Contact
               </a>
             </li>

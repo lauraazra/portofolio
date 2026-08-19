@@ -37,6 +37,16 @@
   "moreProjects": [
     {
       "Category": "Web App Project",
+      "Name": "Personal Portfolio",
+      "Description": "Minimalist and modern personal showcase featuring clean UI components, dark mode integration, interactive project archives, and smooth section navigation tailored for web developers and product managers.",
+      "tool": ["ReactJS", "TypeScript", "Tailwind CSS"],
+      "link": {
+        "Repository": "https://github.com/lauraazra/portofolio",
+        "Website": "https://azra-portofolio.vercel.app/"
+      }
+    },
+    {
+      "Category": "Web App Project",
       "Name": "MovieNerds",
       "Description": "A film community platform built with Laravel featuring movie articles, rating rankings, and interactive public discussions for movie enthusiasts.",
       "tool": ["Laravel", "PHP", "MySQL", "JavaScript", "Bootstrap", "Figma"],

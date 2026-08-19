@@ -5,7 +5,7 @@ export default function AboutSection() {
   const { aboutParagraphs, education, skills } = profileData;
 
   return (
-    <section className="py-12 md:py-20 w-full" id="about">
+    <section className="py-15 w-full scroll-mt-15" id="about">
       <div className="max-w-2xl md:max-w-4xl lg:max-w-5xl mx-auto px-10 md:px-15">
         <TextSection
           title="About Me!"
