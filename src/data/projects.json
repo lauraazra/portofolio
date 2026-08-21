@@ -87,7 +87,7 @@
       "Category": "Game Development",
       "Name": "Twing Twing Game",
       "Description": "An endless runner 3D mobile game built for Android devices where players navigate through city obstacles to achieve high scores.",
-      "tool": ["Unity", "C#", "Blender", "Canva"],
+      "tool": ["Blender", "Canva"],
       "link": {
         "Download": "https://drive.google.com/file/d/1OSnbge8jChXYHpJ67yKc-4SqnyBy3VoK/view?usp=sharing"
       }
