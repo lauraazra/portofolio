@@ -107,7 +107,7 @@
       "Description": "UI/UX web design prototype created in Figma for a film article publication platform and interactive community discussion forum.",
       "tool": ["Figma"],
       "link": {
-        "Design": "https://www.figma.com/..."
+        "Design": "https://colab.research.google.com/drive/1nnSCDMtM4wtxsSniRm4l5k3bOt1eWaYW?usp=sharing"
       }
     },
     {
@@ -116,8 +116,8 @@
       "Description": "NLP research project processing and classifying Google Play Store app reviews into sentiment categories using Lexicon-Based methods in Python.",
       "tool": ["Python", "Jupyter Notebook", "Google Colab", "Excel"],
       "link": {
-        "Paper": "https://...",
-        "Colab": "https://..."
+        "Paper": "https://drive.google.com/file/d/1rJSRdZClmbWsLIk9_15Vv2pBD2sKRJJh/view",
+        "Colab": "https://colab.research.google.com/drive/1nnSCDMtM4wtxsSniRm4l5k3bOt1eWaYW?usp=sharing"
       }
     },
     {
@@ -126,8 +126,8 @@
       "Description": "Sentiment analysis on public tweets using VADER, Naive Bayes, and Random Forest models complete with text preprocessing and cross-validation.",
       "tool": ["Python", "Jupyter Notebook", "Google Colab", "Excel"],
       "link": {
-        "Paper": "https://...",
-        "Colab": "https://..."
+        "Paper": "https://drive.google.com/file/d/1wN57gAtoHHaxhI0iv3y34EgF4sKwpECk/view",
+        "Colab": "https://colab.research.google.com/drive/1eYkfK3d2DwTtQQMGJ_DRFJ23tI4yvPgC?authuser=2#scrollTo=Vnlz0GSTF7jg"
       }
     },
     {
@@ -136,7 +136,7 @@
       "Description": "A web-based decision support system implementing Simple Additive Weighting (SAW) algorithms for local government program evaluation.",
       "tool": ["PHP", "MySQL", "HTML"],
       "link": {
-        "Repository": "https://github.com/..."
+        "Repository": "https://github.com/lauraazra/dss-saw-methods"
       }
     }
   ]
