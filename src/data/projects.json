@@ -100,6 +100,44 @@
       "link": {
         "Repository": "https://github.com/lauraaara/TictacToe-OOP"
       }
+    },
+    {
+      "Category": "UI/UX Design",
+      "Name": "Bapak2.ID Website",
+      "Description": "UI/UX web design prototype created in Figma for a film article publication platform and interactive community discussion forum.",
+      "tool": ["Figma"],
+      "link": {
+        "Design": "https://www.figma.com/..."
+      }
+    },
+    {
+      "Category": "Data Science & NLP",
+      "Name": "Facebook Review Sentiment Analysis",
+      "Description": "NLP research project processing and classifying Google Play Store app reviews into sentiment categories using Lexicon-Based methods in Python.",
+      "tool": ["Python", "Jupyter Notebook", "Google Colab", "Excel"],
+      "link": {
+        "Paper": "https://...",
+        "Colab": "https://..."
+      }
+    },
+    {
+      "Category": "Data Science & NLP",
+      "Name": "Twitter Sentiment Classification",
+      "Description": "Sentiment analysis on public tweets using VADER, Naive Bayes, and Random Forest models complete with text preprocessing and cross-validation.",
+      "tool": ["Python", "Jupyter Notebook", "Google Colab", "Excel"],
+      "link": {
+        "Paper": "https://...",
+        "Colab": "https://..."
+      }
+    },
+    {
+      "Category": "Web App Project",
+      "Name": "Decision Support System (SAW Method)",
+      "Description": "A web-based decision support system implementing Simple Additive Weighting (SAW) algorithms for local government program evaluation.",
+      "tool": ["PHP", "MySQL", "HTML"],
+      "link": {
+        "Repository": "https://github.com/..."
+      }
     }
   ]
 }

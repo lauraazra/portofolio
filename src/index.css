@@ -51,3 +51,28 @@
 html {
   scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-porto-borderslate);
+  border-radius: 9999px;
+  transition: background-color 0.2s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--text-second);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-porto-borderslate) transparent;
+}

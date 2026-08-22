@@ -34,17 +34,20 @@ export default function ExperienceSection() {
           className="flex flex-col md:flex-row gap-6 md:gap-10 mt-12 min-h-85"
         >
           {/* Navigation List */}
-          <div className="flex md:flex-col overflow-x-auto md:overflow-x-visible border-b-2 md:border-b-0 md:border-l-2 border-porto-borderslate shrink-0">
+          <div className="flex md:flex-col overflow-x-auto overflow-y-hidden md:overflow-y-visible md:overflow-x-visible border-b-2 md:border-b-0 md:border-l-2 border-porto-borderslate shrink-0">
             {experiences.map((exp, index) => {
               const isActive = activeTab === index;
               return (
                 <button
                   key={`${exp.company}-${index}`}
                   onClick={() => setActiveTab(index)}
-                  className={`px-4 py-3 text-left font-mono text-xs sm:text-sm whitespace-nowrap transition-all duration-200 border-b-2 md:border-b-0 md:border-l-2 -mb-0.5 md:mb-0 md:-ml-0.5 relative ${
+                  className={`px-4 py-3 text-left font-mono text-xs sm:text-sm whitespace-nowrap transition-all duration-200 border-b-2 md:border-b-0 md:border-l-2 relative ${
                     isActive
                       ? "border-porto-mint text-text-second bg-emerald-500/10 font-medium"
                       : "border-transparent text-text-site/50 hover:text-slate-200 hover:bg-slate-800/40"
+                  } ${
+                    /* Mengatur posisi border aktif di mobile vs desktop tanpa margin negatif berlebih */
+                    isActive ? "-mb-[2px] md:mb-0 md:-ml-[2px]" : ""
                   }`}
                 >
                   {exp.company}
@@ -56,7 +59,7 @@ export default function ExperienceSection() {
           <div className="flex-1 py-1 md:py-0 relative overflow-hidden">
             <AnimatePresence mode="wait">
               <motion.div
-                key={activeTab} 
+                key={activeTab}
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -15 }}

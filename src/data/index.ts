@@ -4,6 +4,8 @@ export interface ProjectLinks {
   Documentation?: string;
   Design?: string;
   Download?: string;
+  Paper?: string;
+  Colab?: string;
 }
 
 export interface Project {
